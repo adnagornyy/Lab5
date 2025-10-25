@@ -1,0 +1,5 @@
+E:/C++/lab5/out/build/x64-debug/CMakeFiles/edit_cache.dir
+E:/C++/lab5/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+E:/C++/lab5/out/build/x64-debug/lab5/CMakeFiles/lab5.dir
+E:/C++/lab5/out/build/x64-debug/lab5/CMakeFiles/edit_cache.dir
+E:/C++/lab5/out/build/x64-debug/lab5/CMakeFiles/rebuild_cache.dir
