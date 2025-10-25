@@ -27,7 +27,7 @@ int calculateSumOfDigits(int a, int b) {
 
 int calculateMaxWith25(int a, int b, int c) {
     cout << "функция наибольшего из трех чисел и 25" << endl;
-    int max_val = max(a, max(b, c));
+    int max_val = max(a, max(b, c)); // из либы алгоритм
     return max(max_val, 25);
 }
 
@@ -139,3 +139,4 @@ int main() {
     return 0;
 
 }
+
