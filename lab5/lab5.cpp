@@ -51,7 +51,6 @@ void processNumbers() {
         cout << "сумма всех цифр двух чисел: " << result << endl;
     }
     else if (a != 0 && c != 0 && b == 0) {
-        // Два числа: a и c - используем функцию для двух чисел
         int result = calculateSumOfDigits(a, c);
         cout << "сумма всех цифр двух чисел: " << result << endl;
     }
@@ -98,28 +97,28 @@ int main() {
 
             // проверяем количество ненулевых 
             if (a != 0 && b != 0 && c != 0) {
-                result = calculateMaxWith25(a, b, c);  // 3 числа
+                result = calculateMaxWith25(a, b, c);  
             }
             else if (a != 0 && b != 0 && c == 0) {
-                result = calculateSumOfDigits(a, b);     // a и b
+                result = calculateSumOfDigits(a, b);    
             }
             else if (a != 0 && c != 0 && b == 0) {
-                result = calculateSumOfDigits(a, c);     // a и c
+                result = calculateSumOfDigits(a, c);    
             }
             else if (b != 0 && c != 0 && a == 0) {
-                result = calculateSumOfDigits(b, c);     // b и c
+                result = calculateSumOfDigits(b, c);    
             }
             else if (a != 0 && b == 0 && c == 0) {
-                result = sumOfDigits(a);      // только a
+                result = sumOfDigits(a);     
             }
             else if (b != 0 && a == 0 && c == 0) {
-                result = sumOfDigits(b);      // только b
+                result = sumOfDigits(b);      
             }
             else if (c != 0 && a == 0 && b == 0) {
-                result = sumOfDigits(c);      // только c
+                result = sumOfDigits(c);      
             }
             else {
-                result = 0;                   // все нули
+                result = 0;                  
             }
 
             cout << "результат: " << result << endl;
@@ -138,4 +137,5 @@ int main() {
 
     cout << "программа завершена" << endl;
     return 0;
+
 }
