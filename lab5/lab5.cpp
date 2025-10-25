@@ -60,20 +60,7 @@ void processNumbers() {
         cout << "сумма всех цифр двух чисел: " << result << endl;
     }
     else if (a != 0 && b == 0 && c == 0) {
-       
-        cout << "только одно ненулевое число: " << a << endl;
-        cout << "сумма цифр: " << sumOfDigits(a) << endl;
-    }
-    else if (b != 0 && a == 0 && c == 0) {
-        
-        cout << "только одно ненулевое число: " << b << endl;
-        cout << "сумма цифр: " << sumOfDigits(b) << endl;
-    }
-    else if (c != 0 && a == 0 && b == 0) {
-        
-        cout << "только одно ненулевое число: " << c << endl;
-        cout << "сумма цифр: " << sumOfDigits(c) << endl;
-    }
+   // + перегрузка функции + void для пункта 2 
     else {
        
         cout << "все числа нулевые" << endl;
@@ -139,4 +126,5 @@ int main() {
     return 0;
 
 }
+
 
